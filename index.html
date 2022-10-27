@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+    <title>Murder Mystery</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="testing()">
+
+  
+    <div class="masterContainer">
+        <h1>MYSTERY CLUE</h1>
+        <h2>TURN SOUND ON</h2>
+        <button onclick="test()">Enter</button>
+    </div> 
+    <div class="questionContainer">
+        <div class="questions">
+            <h2 class="test">you are getting closer to a new clue. Answer the questions correctly to advance through the mystery</h2>
+            <img class="clown" src="clown.png" alt="">
+            <h2 class="testB">It's not time to clown around there is a murder that needs solving and we need your help</h2>
+        </div>
+        <div class="answerQuestion">
+            <h2>to gain access to another clue answer the question correctly</h2>
+            <div class="theQuestion">
+                <img src="adam.png" alt="">
+                <h2>What is the last name of this family?</h2>
+                <div class="answerContainer">
+                    <button>Legend</button>
+                    <button>Gary</button>
+                    <button>Karen</button>
+                    <button onclick="audioHandler()">Adams</button>
+                </div>   
+            </div>
+        </div>
+        <div class="rickRolled">
+            <h2>LOL you just got rick rolled. As if a murder mystery would be that easy.</h2>
+            <img src="rickgiff.webp" alt="">
+        </div>
+    </div>
+
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js" integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ==" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
