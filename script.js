@@ -14,7 +14,7 @@ function test(){
 }
 
 function runTimeLine(){
-    tl.to(".test", {opacity:0, duration:3});
+    tl.to(".test", {opacity:0, duration:15});
     tl.to(".test", {display:'none'});
     tl.to(".clown", {display:'block', duration:0.1}) ;
     tl.to(".clown", {display:'none'}) ;
